@@ -11,3 +11,8 @@ variable = "hola";
 variable = 23;
 variable = {};
 variable = null;
+variable = "hola";
+
+/* se hace un cast */
+const casteado = (variable as string).toLowerCase()
+
